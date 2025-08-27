@@ -3,9 +3,9 @@ import { Github, Twitter, Linkedin, Instagram, Mail, Heart } from 'lucide-react'
 const Footer = () => {
   const socialIcons = [
     { Icon: Github, href: '#', label: 'GitHub' },
-    { Icon: Youtube, href: 'https://www.youtube.com/c/CSWITHRAJ', label: 'Youtube' },
+    { Icon: Twitter, href: '#', label: 'Twitter' },
     { Icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { Icon: Instagram, href: 'https://www.instagram.com/cswithraj/?hl=en', label: 'Instagram' },
+    { Icon: Instagram, href: '#', label: 'Instagram' },
     { Icon: Mail, href: '#', label: 'Email' }
   ];
 
