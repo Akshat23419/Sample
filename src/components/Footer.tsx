@@ -3,9 +3,9 @@ import { Github, Twitter, Linkedin, Instagram, Mail, Heart } from 'lucide-react'
 const Footer = () => {
   const socialIcons = [
     { Icon: Github, href: '#', label: 'GitHub' },
-    { Icon: Twitter, href: '#', label: 'Twitter' },
+    { Icon: Youtube, href: 'https://www.youtube.com/c/CSWITHRAJ', label: 'Youtube' },
     { Icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { Icon: Instagram, href: '#', label: 'Instagram' },
+    { Icon: Instagram, href: 'https://www.instagram.com/cswithraj/?hl=en', label: 'Instagram' },
     { Icon: Mail, href: '#', label: 'Email' }
   ];
 
@@ -61,9 +61,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-6">Get In Touch</h3>
             <div className="space-y-4">
-              <p className="text-muted-foreground">hello@modernweb.com</p>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
-              <p className="text-muted-foreground">San Francisco, CA</p>
+              <p className="text-muted-foreground">cswithraj@poornima.edu.in</p>
+              <p className="text-muted-foreground">+91 000000</p>
+              <p className="text-muted-foreground">Jaipur</p>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Footer = () => {
           <div className="flex items-center text-muted-foreground mb-4 md:mb-0">
             <span>Made with</span>
             <Heart className="w-4 h-4 mx-2 text-red-500 animate-pulse" fill="currentColor" />
-            <span>© 2024 ModernWeb. All rights reserved.</span>
+            <span>All rights reserved.</span>
           </div>
           
           <button
