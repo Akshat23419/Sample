@@ -5,7 +5,7 @@ const Footer = () => {
     { Icon: Github, href: '#', label: 'GitHub' },
     { Icon: Twitter, href: '#', label: 'Twitter' },
     { Icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { Icon: Instagram, href: '#', label: 'Instagram' },
+    { Icon: Instagram, href: 'https://www.instagram.com/cswithraj/?hl=en', label: 'Instagram' },
     { Icon: Mail, href: '#', label: 'Email' }
   ];
 
@@ -88,9 +88,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-border">
           <div className="flex items-center text-muted-foreground mb-4 md:mb-0">
-            <span>Made with</span>
-            <Heart className="w-4 h-4 mx-2 text-red-500 animate-pulse" fill="currentColor" />
-            <span>All rights reserved.</span>
+        
+           <span>All rights reserved.</span>
           </div>
           
           <button
